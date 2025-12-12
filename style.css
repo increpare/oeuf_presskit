@@ -145,8 +145,8 @@ section h3 {
 }
 
 .features-list li {
-    padding: 12px 0;
-    border-bottom: 1px solid #e0e0e0;
+    padding: 6px 0;
+    /* border-bottom: 1px solid #e0e0e0; */
 }
 
 .features-list li:last-child {
@@ -403,4 +403,9 @@ footer p {
     section {
         page-break-inside: avoid;
     }
+}
+
+
+p { 
+    margin-bottom: 1em;
 }
