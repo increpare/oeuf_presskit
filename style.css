@@ -119,7 +119,7 @@ section h3 {
     font-size: 0.95em;
 }
 
-/* Press Meta Info */
+/* Press Release Meta Info */
 .press-meta {
     display: flex;
     justify-content: space-between;
@@ -143,6 +143,20 @@ section h3 {
 
 .press-recipient, .press-type {
     font-weight: bold;
+}
+
+/* Press Release Main Visual */
+.press-main-visual {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.press-main-visual img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Factsheet Grid */
