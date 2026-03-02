@@ -194,20 +194,21 @@ section h3 {
     border-bottom: none;
 }
 
-/* Product Info */
-.product-info dl {
-    display: grid;
-    grid-template-columns: 10em 1fr;
-    gap: 10px 0;
+/* Product Info (Easy-to-Copy List) */
+.product-info .info-list {
+    list-style: none;
+    padding-left: 0;
 }
 
-.product-info dt {
-    font-weight: bold;
+.product-info .info-list p {
+    padding: 10px 0;
+    margin: 0;
 }
 
-.product-info dd {
-    overflow-wrap: break-word; 
-    word-break: break-all; 
+.product-info .info-list strong {
+    display: inline-block;
+    width: 180px;
+    color: #2c3e50;
 }
 
 /* Video Section */
