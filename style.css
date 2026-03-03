@@ -136,7 +136,7 @@ nav {
     padding: 0;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 10002;
     border-bottom: 2px solid #39ff14;
     box-shadow: 0 2px 24px rgba(57, 255, 20, 0.18);
 }
@@ -572,10 +572,12 @@ footer p {
 @media (max-width: 768px) {
     header h1   { font-size: 2em; }
     .tagline    { font-size: 1.2em; }
-    nav ul      { flex-direction: column; }
-    nav a       { border-bottom: 1px solid #0a2010; }
+    nav ul      { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 0 8px; }
+    nav a       { white-space: nowrap; padding: 10px 12px; border-bottom: none; border-right: 1px solid #0a2010; }
+    nav li:last-child a { border-right: none; }
     main        { padding: 20px; }
     section h2  { font-size: 0.88em; }
+    section     { scroll-margin-top: 88px; }
 
     .factsheet-grid,
     .assets-grid,
