@@ -110,14 +110,25 @@ header img {
     border-bottom: 1px solid #39ff14;
     padding: 6px 0;
     overflow: hidden;
+    white-space: nowrap;
+}
+
+.ticker-inner {
+    display: inline-block;
+    animation: ticker-scroll 40s linear infinite;
 }
 
 .ticker {
+    display: inline-block;
     color: #39ff14;
     font-family: 'VT323', monospace;
     font-size: 1.05em;
     letter-spacing: 0.12em;
-    text-transform: uppercase;
+}
+
+@keyframes ticker-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
 
 nav {
