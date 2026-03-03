@@ -12,6 +12,10 @@ body {
     background-image: radial-gradient(#407f9b, #315b6f);
 }
 
+html {
+    scroll-padding-top: 0px;
+}
+
 a {
     color: #0066cc;
 }
@@ -89,6 +93,7 @@ h1 {
 
 section {
     margin-bottom: 60px;
+    scroll-margin-top: 72px;
 }
 
 section h2 {
