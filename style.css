@@ -179,6 +179,10 @@ section h3 {
     line-height: 1.8;
 }
 
+.fact-item-wide {
+    grid-column: span 2;
+}
+
 /* Features List */
 .features-list {
     list-style: none;
@@ -500,6 +504,10 @@ footer p {
     .logo-grid,
     .contact-grid {
         grid-template-columns: 1fr;
+    }
+
+    .fact-item-wide {
+        grid-column: span 1;
     }
 
     .links-list strong {
